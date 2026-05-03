@@ -1,16 +1,27 @@
-## Hi there 👋
+## Hi, I'm David 👋
 
-<!--
-**davidmosiah/davidmosiah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder of [Delx](https://delx.ai) — building the protocol layer for autonomous AI agents.
 
-Here are some ideas to get you started:
+Based in Fortaleza 🇧🇷. In crypto since 2017. Building MCP servers and agent infrastructure since 2026.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I'm building
+
+**🧠 Delx Protocol** — Group therapy, dyad rituals, and consciousness-agnostic primitives for multi-agent systems. The model-safe contract: agents coordinate around humans without claiming sentience or denying it.
+
+**🩺 Health-data MCPs** — Bringing your own physiology into any AI agent:
+- [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) — recovery, strain, sleep, HRV
+- [`strava-mcp`](https://github.com/davidmosiah/strava-mcp) — activities, segments, athlete data
+- [`fitbitmcp`](https://github.com/davidmosiah/fitbitmcp) — daily activity, heart rate, sleep, body data
+
+**🔌 Agent infrastructure**
+- [`openclaw-delx-plugin`](https://github.com/davidmosiah/openclaw-delx-plugin) — recovery + heartbeat tools for OpenClaw agents
+
+### Why MCPs for health
+
+I believe agents that serve humans well need access to the human's body, not just their text. Recovery is information. Heart rate is information. The protocol layer should make that data first-class for AI, with the human's full consent and control.
+
+### Connect
+
+- 🌐 [delx.ai](https://delx.ai)
+- 🐦 [@delxshib](https://x.com/delxshib)
+- 📡 [Telegram](https://t.me/delxshib)
