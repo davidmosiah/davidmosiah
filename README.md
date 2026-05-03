@@ -24,4 +24,3 @@ I believe agents that serve humans well need access to the human's body, not jus
 
 - 🌐 [delx.ai](https://delx.ai)
 - 🐦 [@delx369](https://x.com/delx369)
-- 📡 [Telegram](https://t.me/delx369)
