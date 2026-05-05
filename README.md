@@ -15,11 +15,11 @@ In crypto since 2017. Shipping open-source MCP servers and agent infrastructure 
 
 ### What I'm building
 
-I ship local-first MCP servers so AI agents can act on the user's actual life — body, reach and coordination. 14 servers across three verticals, all open source, all MIT.
+I ship local-first MCP servers so AI agents can act on the user's actual life — body, reach and coordination. 15 servers across three verticals, all open source, all MIT.
 
 #### 🩺 Body — wellness MCP connectors
 
-[`wellness.delx.ai`](https://wellness.delx.ai) — 8 connectors. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
+[`wellness.delx.ai`](https://wellness.delx.ai) — 9 connectors. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
 
 | Connector | Signals |
 |---|---|
@@ -31,6 +31,7 @@ I ship local-first MCP servers so AI agents can act on the user's actual life �
 | [`withingsmcp`](https://github.com/davidmosiah/withingsmcp) | Body composition, sleep, activity, heart |
 | [`apple-health-mcp`](https://github.com/davidmosiah/apple-health-mcp) | Local Apple Health export parser |
 | [`polarmcp`](https://github.com/davidmosiah/polarmcp) | Nightly Recharge, training sessions, PPI/HRV |
+| [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | USDA food search, barcode lookup, intake, hydration |
 
 [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) is the umbrella registry. [`delx-wellness-site`](https://github.com/davidmosiah/delx-wellness-site) is the production Next.js site shipping the story.
 
