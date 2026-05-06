@@ -55,6 +55,17 @@ CLIs and MCP servers for agents that publish. Dry-run by default, real uploads w
 
 Agents that serve humans well need access to the human's body, voice and attention — not just their text. The protocol layer should make that data first-class for AI, with the human's full consent and control. No cloud middleware, no token shadow copies, no "we keep your data safe for you."
 
+### Agent-first consulting focus
+
+I help teams turn AI experiments into agent-ready products: MCP servers, multi-client tool contracts, local-first data boundaries, dry-run-safe automation, production observability and public developer-facing documentation.
+
+Good starting points:
+
+- Audit an existing API/app and expose the right MCP surface.
+- Build local-first connectors around sensitive user data.
+- Turn internal scripts into safe, reusable agent tools.
+- Make a product legible to agents through docs, metadata, manifests and discovery standards.
+
 ### Open to
 
 Senior IC engineering roles or contracts focused on **AI agents, MCP / A2A protocols**, and modern fullstack TypeScript. Async-friendly remote teams preferred.
