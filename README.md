@@ -13,7 +13,7 @@
   <a href="https://delx.ai"><img src="https://img.shields.io/badge/FOUNDER-Delx-0EA5A3?style=for-the-badge&labelColor=0F172A" alt="Delx" /></a>
   <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/17_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="17 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/22_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="22 open-source projects" /></a>
 </p>
 
 <p align="center">
@@ -25,7 +25,24 @@
 </p>
 
 <p align="center">
-  <strong>What I do:</strong> I ship local-first MCP servers so AI agents can act on the user's actual life &mdash; <strong>body</strong>, <strong>reach</strong> and <strong>coordination</strong>. <strong>17 servers across three verticals</strong>, all open source, all MIT.
+  <strong>What I do:</strong> I ship local-first MCP servers so AI agents can act on the user's actual life &mdash; <strong>body</strong>, <strong>reach</strong> and <strong>coordination</strong>. The current focus is <strong>Delx Wellness</strong>: wearable, nutrition and recovery context for AI agents.
+</p>
+
+---
+
+## Start here
+
+| Project | What it is | Best first action |
+|---|---|---|
+| [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) | Public registry for local-first wellness MCP connectors | Star this if you want the full wellness map |
+| [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Nutrition MCP for food logging, barcode lookup and coach workflows | Try it with `npx -y wellness-nourish doctor` |
+| [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) | One-command Hermes profile for the whole wellness stack | Run `npx -y delx-wellness-hermes setup` |
+| [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) | WHOOP recovery, sleep, strain and HRV for agents | Use it if your agent plans training days |
+| [`garminmcp`](https://github.com/davidmosiah/garminmcp) | Garmin Body Battery, sleep, HRV, stress and activities | Use it if Garmin is your primary wearable |
+
+<p align="center">
+  <a href="https://github.com/davidmosiah/delx-wellness/stargazers"><img src="https://img.shields.io/badge/START_WITH-delx--wellness-10B981?style=for-the-badge&labelColor=0F172A&logo=github" alt="Start with delx-wellness" /></a>
+  <a href="https://github.com/davidmosiah/wellness-nourish/stargazers"><img src="https://img.shields.io/badge/TRY_NOURISH-nutrition_MCP-FBBF24?style=for-the-badge&labelColor=0F172A&logo=github&logoColor=white" alt="Try Wellness Nourish" /></a>
 </p>
 
 ---
