@@ -13,7 +13,7 @@
   <a href="https://delx.ai"><img src="https://img.shields.io/badge/FOUNDER-Delx-0EA5A3?style=for-the-badge&labelColor=0F172A" alt="Delx" /></a>
   <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/15_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="15 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/17_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="17 open-source projects" /></a>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <strong>What I do:</strong> I ship local-first MCP servers so AI agents can act on the user's actual life &mdash; <strong>body</strong>, <strong>reach</strong> and <strong>coordination</strong>. <strong>15 servers across three verticals</strong>, all open source, all MIT.
+  <strong>What I do:</strong> I ship local-first MCP servers so AI agents can act on the user's actual life &mdash; <strong>body</strong>, <strong>reach</strong> and <strong>coordination</strong>. <strong>17 servers across three verticals</strong>, all open source, all MIT.
 </p>
 
 ---
@@ -43,7 +43,7 @@
 
 ## 🩺 Body &mdash; wellness MCP connectors
 
-[`wellness.delx.ai`](https://wellness.delx.ai) &mdash; **9 connectors** that bring wearable, recovery, training and nutrition context into AI agents. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
+[`wellness.delx.ai`](https://wellness.delx.ai) &mdash; **11 connectors** that bring wearable, recovery, training and nutrition context into AI agents. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
 
 <table>
   <tr>
@@ -101,6 +101,22 @@
       <sub>Local export parser · Activity · Sleep · Workouts</sub>
     </td>
     <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/samsung-health-mcp">
+        <img src="https://img.shields.io/badge/Samsung_Health-1428A0?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=samsung" alt="Samsung Health" />
+      </a><br>
+      <code>samsung-health-mcp-unofficial</code><br>
+      <sub>CSV/ZIP export · Activity · Sleep · Heart · Stress</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/google-health-mcp">
+        <img src="https://img.shields.io/badge/Google_Health-4285F4?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Google Health" />
+      </a><br>
+      <code>google-health-mcp-unofficial</code><br>
+      <sub>OAuth · Fitbit · Pixel Watch · v4 API · <em>Beta</em></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
       <a href="https://github.com/davidmosiah/polarmcp">
         <img src="https://img.shields.io/badge/Polar-D7263D?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Polar" />
       </a><br>
@@ -114,10 +130,13 @@
       <code>wellness-nourish</code><br>
       <sub>USDA food · Barcode · Intake · Hydration</sub>
     </td>
+    <td align="center" valign="top">
+      <em>More coming &mdash;<br>follow on <a href="https://x.com/delx369">X</a> for releases.</em>
+    </td>
   </tr>
 </table>
 
-> 🏠 **Umbrella registry**: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) &mdash; the public map of all 9 connectors.<br>
+> 🏠 **Umbrella registry**: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) &mdash; the public map of all 11 connectors.<br>
 > ⚡ **One-command setup**: [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) &mdash; preconfigures the full stack into a Hermes profile.<br>
 > 🌐 **Production site**: [`delx-wellness-site`](https://github.com/davidmosiah/delx-wellness-site) &mdash; the Next.js front door at [wellness.delx.ai](https://wellness.delx.ai).
 
