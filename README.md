@@ -37,6 +37,7 @@
 | [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) | Public registry for local-first wellness MCP connectors | Star this if you want the full wellness map |
 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Nutrition MCP for food logging, barcode lookup and coach workflows | Try it with `npx -y wellness-nourish doctor` |
 | [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) | One-command Hermes profile for the whole wellness stack | Run `npx -y delx-wellness-hermes setup` |
+| [`delx-wellness-openclaw`](https://github.com/davidmosiah/delx-wellness-openclaw) | One-command OpenClaw profile for the whole wellness stack | Run `npx -y delx-wellness-openclaw setup` |
 | [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) | WHOOP recovery, sleep, strain and HRV for agents | Use it if your agent plans training days |
 | [`garminmcp`](https://github.com/davidmosiah/garminmcp) | Garmin Body Battery, sleep, HRV, stress and activities | Use it if Garmin is your primary wearable |
 
@@ -210,7 +211,30 @@ CLIs and MCP servers for agents that publish, discover and analyze. **Dry-run by
 
 ---
 
-## 🔌 Coordination &mdash; agent infrastructure
+## 🚀 Coordination &mdash; agent infrastructure
+
+### One-command profile packs
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/davidmosiah/delx-wellness-hermes">
+        <img src="https://img.shields.io/badge/Hermes_Pack-Wellness_profile-22C55E?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Wellness for Hermes" />
+      </a><br>
+      <code>delx-wellness-hermes</code><br>
+      <sub>One-command setup · 11 connector presets · Skills + onboarding</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/davidmosiah/delx-wellness-openclaw">
+        <img src="https://img.shields.io/badge/OpenClaw_Pack-Wellness_profile-FB923C?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Wellness for OpenClaw" />
+      </a><br>
+      <code>delx-wellness-openclaw</code><br>
+      <sub>One-command setup · OpenClaw mcp.servers presets · Skills + onboarding</sub>
+    </td>
+  </tr>
+</table>
+
+### Plugins &amp; protocols
 
 <table>
   <tr>
