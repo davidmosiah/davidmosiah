@@ -14,7 +14,7 @@
   <a href="https://ontology.delx.ai"><img src="https://img.shields.io/badge/ONTOLOGY-ontology.delx.ai-7C3AED?style=for-the-badge&labelColor=0F172A" alt="Delx Ontology" /></a>
   <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/24_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="24 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/27_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="27 open-source projects" /></a>
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@
 
 ## 🩺 Body &mdash; wellness MCP connectors
 
-[`wellness.delx.ai`](https://wellness.delx.ai) &mdash; **11 connectors** that bring wearable, recovery, training and nutrition context into AI agents. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
+[`wellness.delx.ai`](https://wellness.delx.ai) &mdash; **14 connectors** spanning wearables, nutrition, room air quality, menstrual cycle, and continuous glucose. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
 
 <table>
   <tr>
@@ -151,12 +151,35 @@
       <sub>USDA food · Barcode · Intake · Hydration</sub>
     </td>
     <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/wellness-air">
+        <img src="https://img.shields.io/badge/Air-0EA5A3?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Wellness Air" />
+      </a><br>
+      <code>wellness-air</code><br>
+      <sub>AirGradient · AQI · Room PM2.5 / CO₂</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/wellness-cycle-coach">
+        <img src="https://img.shields.io/badge/Cycle_Coach-EC4899?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Cycle Coach" />
+      </a><br>
+      <code>wellness-cycle-coach</code><br>
+      <sub>Menstrual phase · Stateless coach</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/wellness-cgm-mcp">
+        <img src="https://img.shields.io/badge/CGM-DC2626?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="CGM" />
+      </a><br>
+      <code>wellness-cgm-mcp</code><br>
+      <sub>Dexcom · Glucose · TIR · Meal response</sub>
+    </td>
+    <td align="center" valign="top">
       <em>More coming &mdash;<br>follow on <a href="https://x.com/delx369">X</a> for releases.</em>
     </td>
   </tr>
 </table>
 
-> 🏠 **Umbrella registry**: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) &mdash; the public map of all 11 connectors.<br>
+> 🏠 **Umbrella registry**: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) &mdash; the public map of all 14 connectors.<br>
 > ⚡ **One-command setup**: [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) &mdash; preconfigures the full stack into a Hermes profile.<br>
 > 🌐 **Production site**: [`delx-wellness-site`](https://github.com/davidmosiah/delx-wellness-site) &mdash; the Next.js front door at [wellness.delx.ai](https://wellness.delx.ai).
 
@@ -224,7 +247,7 @@ CLIs and MCP servers for agents that publish, discover and analyze. **Dry-run by
         <img src="https://img.shields.io/badge/Hermes_Pack-Wellness_profile-22C55E?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Wellness for Hermes" />
       </a><br>
       <code>delx-wellness-hermes</code><br>
-      <sub>One-command setup · 11 connector presets · Skills + onboarding</sub>
+      <sub>One-command setup · 14 connector presets · Skills + onboarding</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/davidmosiah/delx-wellness-openclaw">
