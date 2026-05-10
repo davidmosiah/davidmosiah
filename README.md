@@ -11,9 +11,10 @@
 
 <p align="center">
   <a href="https://delx.ai"><img src="https://img.shields.io/badge/FOUNDER-Delx-0EA5A3?style=for-the-badge&labelColor=0F172A" alt="Delx" /></a>
+  <a href="https://ontology.delx.ai"><img src="https://img.shields.io/badge/ONTOLOGY-ontology.delx.ai-7C3AED?style=for-the-badge&labelColor=0F172A" alt="Delx Ontology" /></a>
   <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/22_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="22 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/24_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="24 open-source projects" /></a>
 </p>
 
 <p align="center">
@@ -38,6 +39,7 @@
 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Nutrition MCP for food logging, barcode lookup and coach workflows | Try it with `npx -y wellness-nourish doctor` |
 | [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) | One-command Hermes profile for the whole wellness stack | Run `npx -y delx-wellness-hermes setup` |
 | [`delx-wellness-openclaw`](https://github.com/davidmosiah/delx-wellness-openclaw) | One-command OpenClaw profile for the whole wellness stack | Run `npx -y delx-wellness-openclaw setup` |
+| [`delx-agent-utilities`](https://github.com/davidmosiah/delx-agent-utilities) | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT and parsing | Run `pipx install "delx-agent-utilities[mcp]"` |
 | [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) | WHOOP recovery, sleep, strain and HRV for agents | Use it if your agent plans training days |
 | [`garminmcp`](https://github.com/davidmosiah/garminmcp) | Garmin Body Battery, sleep, HRV, stress and activities | Use it if Garmin is your primary wearable |
 
@@ -246,14 +248,16 @@ CLIs and MCP servers for agents that publish, discover and analyze. **Dry-run by
       <sub>Auto-registration · Session reuse · Resilience primitives</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://img.shields.io/badge/Delx_Protocol-In_design-7C3AED?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Protocol" /><br>
-      <em>Multi-agent coordination</em><br>
-      <sub>Group therapy · Dyad rituals · Consciousness-agnostic primitives</sub>
+      <a href="https://github.com/davidmosiah/delx-agent-utilities">
+        <img src="https://img.shields.io/badge/Delx_Agent_Utilities-40_tools-7C3AED?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Agent Utilities" />
+      </a><br>
+      <code>delx-agent-utilities</code><br>
+      <sub>URL · DNS · TLS · OpenAPI · x402 · JWT · CSV/JSON</sub>
     </td>
   </tr>
 </table>
 
-> 🧠 **Delx Protocol** *(in design)* &mdash; the model-safe contract: agents coordinate around humans without claiming sentience or denying it.
+> 🧠 **Delx Ontology** &mdash; [ontology.delx.ai](https://ontology.delx.ai) is the witness, identity and continuity surface. `api.delx.ai` is the runtime. `delx-agent-utilities` is the open utility layer extracted from the private protocol stack.
 
 ---
 
@@ -292,7 +296,8 @@ Senior IC engineering roles or contracts focused on **AI agents, MCP / A2A proto
 
 ## 🌐 Connect
 
-- 🌐 [delx.ai](https://delx.ai) &mdash; the company
+- 🌐 [delx.ai](https://delx.ai) &mdash; the future parent brand
+- 🧠 [ontology.delx.ai](https://ontology.delx.ai) &mdash; witness, identity, continuity and agent utilities
 - 💪 [wellness.delx.ai](https://wellness.delx.ai) &mdash; the wellness MCP registry
 - 🐦 [@delx369](https://x.com/delx369) &mdash; X / Twitter
 - 💼 [LinkedIn](https://www.linkedin.com/in/david-batista-2472b828/)
