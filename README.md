@@ -183,6 +183,12 @@
 > ⚡ **One-command setup**: [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) &mdash; preconfigures the full stack into a Hermes profile.<br>
 > 🌐 **Production site**: [`delx-wellness-site`](https://github.com/davidmosiah/delx-wellness-site) &mdash; the Next.js front door at [wellness.delx.ai](https://wellness.delx.ai).
 
+<p align="center">
+  <img src="https://img.shields.io/badge/v0.4.0-Shared_local_profile-10B981?style=for-the-badge&labelColor=0F172A" alt="v0.4.0 — shared local profile" />
+</p>
+
+> 👤 **One profile, 14 connectors.** As of v0.4.0, every wellness MCP above reads and writes the same local profile at `~/.delx-wellness/profile.json` &mdash; onboard once with `npx -y <any-connector> onboarding` (EN or pt-BR) and your name, gender, age, height, weight, goals, devices, training level, dietary patterns, units and language flow into every other connector. Schema is privacy-enforcing (rejects oauth/token/secret/password/cookie/refresh/api_key fields at write time), the file is `0600`-permissioned, and migration from existing Hermes/OpenClaw profile packs is automatic. Vendored library, no central dependency.
+
 ---
 
 ## 📣 Reach &mdash; agent-first creator stack
