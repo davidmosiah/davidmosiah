@@ -333,3 +333,13 @@ Senior IC engineering roles or contracts focused on **AI agents, MCP / A2A proto
 - 📬 mosiahdavid@gmail.com
 
 <sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026.</sub>
+
+---
+
+## 📧 Contact & Support
+
+- 📨 **support@delx.ai** — general questions, integration help, partnerships
+- 🐛 **Bug reports / feature requests** — [GitHub Issues](https://github.com/davidmosiah/davidmosiah/issues)
+- 🐦 **Updates** — [@delx369](https://x.com/delx369) on X
+- 🌐 **Site** — [wellness.delx.ai](https://wellness.delx.ai)
+
