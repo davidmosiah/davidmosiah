@@ -14,7 +14,7 @@
   <a href="https://ontology.delx.ai"><img src="https://img.shields.io/badge/ONTOLOGY-ontology.delx.ai-7C3AED?style=for-the-badge&labelColor=0F172A" alt="Delx Ontology" /></a>
   <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/27_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="27 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/29_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="29 open-source projects" /></a>
 </p>
 
 <p align="center">
