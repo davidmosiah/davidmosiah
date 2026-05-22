@@ -235,6 +235,15 @@ CLIs and MCP servers for agents that publish, discover and analyze. **Dry-run by
       <sub>Search-term + negative-keyword analyzer</sub>
     </td>
     <td align="center" valign="top">
+      <a href="https://github.com/davidmosiah/google-ads-mcp-unofficial">
+        <img src="https://img.shields.io/badge/Google_Ads-MCP-4285F4?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=googleads" alt="Google Ads MCP" />
+      </a><br>
+      <code>google-ads-mcp-unofficial</code><br>
+      <sub>Read + gated mutations · 27 tools</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" colspan="3">
       <em>More coming &mdash;<br>follow on <a href="https://x.com/delx369">X</a> for releases.</em>
     </td>
   </tr>
