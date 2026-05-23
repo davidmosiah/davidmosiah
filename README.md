@@ -44,6 +44,7 @@
 | **🏃 [whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** · `337 downloads/week` · `2 ⭐` | WHOOP recovery, sleep, HRV, strain — official OAuth | `npx -y whoop-mcp-unofficial setup` |
 | **🛠️ [delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT | `pipx install "delx-agent-utilities[mcp]"` |
 | **🩺 [mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** | Agent-readiness scorecard for any MCP server. Probes + 10 checks + 0-100 score | `npx -y mcp-scorecard <pkg-or-repo>` |
+| **🧠 [delx-memory](https://github.com/davidmosiah/delx-memory)** | Shared SQLite memory for Claude/Cursor/Hermes/OpenClaw/Codex — secret-blocking, TTL, tags | `npx -y delx-memory doctor` |
 
 ---
 
@@ -97,6 +98,7 @@
 - 🧰 **[delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** — 40 deterministic agent utilities: URL, DNS, TLS, OpenAPI, x402, JWT, CSV/JSON parsing (Python)
 - 🩺 **[mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** — Quality + agent-readiness audit for any MCP server (10 checks → 0-100 score, markdown or JSON) · `mcp-scorecard`
 - 🛟 **[openclaw-delx-plugin](https://github.com/davidmosiah/openclaw-delx-plugin)** — OpenClaw recovery + heartbeat plugin · `openclaw-delx-plugin`
+- 🧠 **[delx-memory](https://github.com/davidmosiah/delx-memory)** — Local-first persistent memory MCP — one SQLite file, every MCP client. Secret-blocking, TTL, tags, JSON/JSONL/Markdown export · `delx-memory`
 
 ---
 
