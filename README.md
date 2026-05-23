@@ -45,6 +45,7 @@
 | **🛠️ [delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT | `pipx install "delx-agent-utilities[mcp]"` |
 | **🩺 [mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** | Agent-readiness scorecard for any MCP server. Probes + 10 checks + 0-100 score | `npx -y mcp-scorecard <pkg-or-repo>` |
 | **🧠 [delx-memory](https://github.com/davidmosiah/delx-memory)** | Shared SQLite memory for Claude/Cursor/Hermes/OpenClaw/Codex — secret-blocking, TTL, tags | `npx -y delx-memory doctor` |
+| **🫀 [delx-living-body](https://github.com/davidmosiah/delx-living-body)** | Meta-MCP that auto-detects your installed wellness connectors and composes them into a unified body data layer | `npx -y delx-living-body doctor` |
 
 ---
 
@@ -73,6 +74,10 @@
 - 🌬️ **[wellness-air](https://github.com/davidmosiah/wellness-air)** — Indoor air quality (AirGradient): PM2.5, CO2, VOC, AQI · `wellness-air`
 - 🌸 **[wellness-cycle-coach](https://github.com/davidmosiah/wellness-cycle-coach)** — Stateless menstrual-cycle coach (phase detection, nutrition, training) · `wellness-cycle-coach`
 - 🩸 **[wellness-cgm-mcp](https://github.com/davidmosiah/wellness-cgm-mcp)** — Dexcom CGM with TIR/GMI/meal response · `wellness-cgm-mcp`
+
+### Meta-connector (1)
+
+- 🫀 **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** — Auto-detects which of the 15 connectors are installed and composes them into a unified `delx-wellness-context/v1` shape with a rule-based synthesizer (no LLM calls) · `delx-living-body`
 
 ### Profile packs (2)
 
