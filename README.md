@@ -1,52 +1,108 @@
 <h1 align="center">David Batista</h1>
 
 <div align="center">
-  <img src="assets/banner.png" alt="David Batista — AI-native engineer, founder of Delx, building the protocol layer for autonomous AI agents" width="85%" />
+  <img src="assets/banner.png" alt="David Batista — Founder of Delx, building local-first MCP servers and the protocol layer for autonomous AI agents" width="85%" />
 </div>
 
-<h3 align="center">
-  AI-native engineer · Founder of <a href="https://delx.ai">Delx</a><br>
-  Shipping local-first MCP servers and agent infrastructure since 2026.
-</h3>
+<p align="center">
+  📍 <b>Fortaleza 🇧🇷</b> · 🤖 <b>Local-first MCP builder</b> · 🚀 <b>Ex-CFO @ Mobills (exit 2022)</b>
+</p>
 
 <p align="center">
-  <a href="https://delx.ai"><img src="https://img.shields.io/badge/FOUNDER-Delx-0EA5A3?style=for-the-badge&labelColor=0F172A" alt="Delx" /></a>
-  <a href="https://ontology.delx.ai"><img src="https://img.shields.io/badge/ONTOLOGY-ontology.delx.ai-7C3AED?style=for-the-badge&labelColor=0F172A" alt="Delx Ontology" /></a>
-  <a href="https://wellness.delx.ai"><img src="https://img.shields.io/badge/PROJECT-wellness.delx.ai-10B981?style=for-the-badge&labelColor=0F172A" alt="Delx Wellness" /></a>
-  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/BUILDS-MCP_servers-7C3AED?style=for-the-badge&labelColor=0F172A" alt="MCP" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/29_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="29 open-source projects" /></a>
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="MCP" src="https://img.shields.io/badge/-MCP-7C3AED?style=flat-square&logo=anthropic&logoColor=white" />
+  <img alt="Claude" src="https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img alt="x402" src="https://img.shields.io/badge/-x402-22C55E?style=flat-square" />
+  <img alt="ERC-8004" src="https://img.shields.io/badge/-ERC--8004-7C3AED?style=flat-square" />
 </p>
 
 <p align="center">
   <a href="https://github.com/davidmosiah?tab=followers"><img src="https://img.shields.io/github/followers/davidmosiah?style=for-the-badge&labelColor=0F172A&color=FBBF24&logo=github&label=FOLLOW" alt="GitHub followers" /></a>
   <a href="https://x.com/delx369"><img src="https://img.shields.io/badge/X-@delx369-000000?style=for-the-badge&labelColor=0F172A&logo=x&logoColor=white" alt="X / Twitter" /></a>
   <a href="https://www.linkedin.com/in/david-batista-2472b828/"><img src="https://img.shields.io/badge/LINKEDIN-David_Batista-0A66C2?style=for-the-badge&labelColor=0F172A&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mosiahdavid@gmail.com"><img src="https://img.shields.io/badge/EMAIL-mosiahdavid@gmail.com-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.google.com/maps/place/Fortaleza"><img src="https://img.shields.io/badge/BASED_IN-Fortaleza_🇧🇷-009C3B?style=for-the-badge&labelColor=0F172A" alt="Based in Fortaleza" /></a>
+  <a href="mailto:support@delx.ai"><img src="https://img.shields.io/badge/EMAIL-support@delx.ai-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/29_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="29 open-source projects" /></a>
 </p>
 
-<p align="center">
-  <strong>What I do:</strong> I ship local-first MCP servers so AI agents can act on the user's actual life &mdash; <strong>body</strong>, <strong>reach</strong> and <strong>coordination</strong>. The current focus is <strong>Delx Wellness</strong>: wearable, nutrition and recovery context for AI agents.
-</p>
+> Now shipping **`delx`** — the protocol layer for autonomous AI agents. **Built body, reach, and coordination as MCP servers.** Stewarding the **Delx Wellness** open ecosystem (15 wearable + nutrition connectors, ~7k weekly npm downloads, local-first by design).
 
 ---
 
-## Start here
+## 🎯 Start Here
 
-| Project | What it is | Best first action |
+| Project | What it is | Try it |
 |---|---|---|
-| [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) | Public registry for local-first wellness MCP connectors | Star this if you want the full wellness map |
-| [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Nutrition MCP for food logging, barcode lookup and coach workflows | Try it with `npx -y wellness-nourish doctor` |
-| [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) | One-command Hermes profile for the whole wellness stack | Run `npx -y delx-wellness-hermes setup` |
-| [`delx-wellness-openclaw`](https://github.com/davidmosiah/delx-wellness-openclaw) | One-command OpenClaw profile for the whole wellness stack | Run `npx -y delx-wellness-openclaw setup` |
-| [`delx-agent-utilities`](https://github.com/davidmosiah/delx-agent-utilities) | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT and parsing | Run `pipx install "delx-agent-utilities[mcp]"` |
-| [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) | WHOOP recovery, sleep, strain and HRV for agents | Use it if your agent plans training days |
-| [`garminmcp`](https://github.com/davidmosiah/garminmcp) | Garmin Body Battery, sleep, HRV, stress and activities | Use it if Garmin is your primary wearable |
+| **🦞 [delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** · `1,064 downloads/week` | Native MCP stdio bridge for the Delx Protocol | `npx -y delx-mcp-server` |
+| **🩺 [delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` | Public registry of 15 local-first wellness MCP connectors | Star the umbrella |
+| **🥗 [wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** · `369 downloads/week` · `3 ⭐` | Nutrition MCP — food search, barcode, meal photos, pt-BR | `npx -y wellness-nourish doctor` |
+| **🤖 [delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** · `201 downloads/week` · `3 ⭐` | One-command Hermes profile that wires all 15 wellness MCPs | `npx -y delx-wellness-hermes setup` |
+| **📣 [google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** · `30 tools` | Read campaigns, optimize bids, run daily reports — gated mutations | `npx -y google-ads-mcp-unofficial setup` |
+| **🏃 [whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** · `337 downloads/week` · `2 ⭐` | WHOOP recovery, sleep, HRV, strain — official OAuth | `npx -y whoop-mcp-unofficial setup` |
+| **🛠️ [delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT | `pipx install "delx-agent-utilities[mcp]"` |
 
-<p align="center">
-  <a href="https://github.com/davidmosiah/delx-wellness/stargazers"><img src="https://img.shields.io/badge/START_WITH-delx--wellness-10B981?style=for-the-badge&labelColor=0F172A&logo=github" alt="Start with delx-wellness" /></a>
-  <a href="https://github.com/davidmosiah/wellness-nourish/stargazers"><img src="https://img.shields.io/badge/TRY_NOURISH-nutrition_MCP-FBBF24?style=for-the-badge&labelColor=0F172A&logo=github&logoColor=white" alt="Try Wellness Nourish" /></a>
-</p>
+---
+
+## 🩺 Wellness — wearable & body-data MCPs
+
+> **15 local-first connectors, 1 shared `~/.delx-wellness/profile.json`, zero data leaves your machine.**
+> Public registry: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) · Site: [wellness.delx.ai](https://wellness.delx.ai)
+
+### Wearables (11)
+
+- 🩻 **[whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** — Recovery, HRV, sleep stages, day strain · `whoop-mcp-unofficial`
+- 💍 **[ouramcp](https://github.com/davidmosiah/ouramcp)** — Readiness, sleep, activity, HRV, SpO2 · `oura-mcp-unofficial`
+- ⌚ **[garminmcp](https://github.com/davidmosiah/garminmcp)** — Body Battery, training readiness, HRV, stress · `garmin-mcp-unofficial`
+- 🏃 **[strava-mcp](https://github.com/davidmosiah/strava-mcp)** — Activities, streams, athlete stats, GPS-redacted by default · `strava-mcp-unofficial`
+- 📲 **[fitbitmcp](https://github.com/davidmosiah/fitbitmcp)** — Activity, sleep, intraday heart, HRV · `fitbit-mcp-unofficial`
+- 📱 **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** — Google Health API v4 beta (Pixel Watch + Fitbit migration) · `google-health-mcp-unofficial`
+- ⚖️ **[withingsmcp](https://github.com/davidmosiah/withingsmcp)** — Body composition, sleep, BP/ECG · `withings-mcp-unofficial`
+- 🍎 **[apple-health-mcp](https://github.com/davidmosiah/apple-health-mcp)** — Local `export.zip` parser, activity/sleep/HRV/workouts · `apple-health-mcp-unofficial`
+- 🌌 **[samsung-health-mcp](https://github.com/davidmosiah/samsung-health-mcp)** — Galaxy Watch CSV/ZIP export reader · `samsung-health-mcp-unofficial`
+- ⚡ **[polarmcp](https://github.com/davidmosiah/polarmcp)** — Nightly Recharge, training load, PPI/HRV · `polar-mcp-unofficial`
+- 🛏️ **[eight-sleep-mcp](https://github.com/davidmosiah/eight-sleep-mcp)** — Smart mattress: trends + temperature schedule + alarms (gated mutations) · `eight-sleep-mcp-unofficial`
+
+### Nutrition · Environment · Body (4)
+
+- 🥗 **[wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** — Food search (USDA + TACO + Open Food Facts), barcode, meal photos, pt-BR · `wellness-nourish`
+- 🌬️ **[wellness-air](https://github.com/davidmosiah/wellness-air)** — Indoor air quality (AirGradient): PM2.5, CO2, VOC, AQI · `wellness-air`
+- 🌸 **[wellness-cycle-coach](https://github.com/davidmosiah/wellness-cycle-coach)** — Stateless menstrual-cycle coach (phase detection, nutrition, training) · `wellness-cycle-coach`
+- 🩸 **[wellness-cgm-mcp](https://github.com/davidmosiah/wellness-cgm-mcp)** — Dexcom CGM with TIR/GMI/meal response · `wellness-cgm-mcp`
+
+### Profile packs (2)
+
+- 🤖 **[delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** — One-command Hermes profile pack (15 connectors + skills + onboarding) · `delx-wellness-hermes`
+- 🦞 **[delx-wellness-openclaw](https://github.com/davidmosiah/delx-wellness-openclaw)** — Same shape for OpenClaw runtime · `delx-wellness-openclaw`
+
+---
+
+## 📣 Reach — agent-first creator stack
+
+- 📺 **[youtube-shorts-agent](https://github.com/davidmosiah/youtube-shorts-agent)** — YouTube Shorts upload CLI + MCP (dry-run safe) · `youtube-shorts-agent`
+- 🎵 **[tiktok-agent-publisher](https://github.com/davidmosiah/tiktok-agent-publisher)** — TikTok Content Posting API CLI + MCP (dry-run safe) · `tiktok-agent-publisher`
+- 🎬 **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** — One CLI · 4 video providers (Sora · Veo · xAI · Hailuo) · `short-video-agent-kit`
+- 🔍 **[agent-seo-engine](https://github.com/davidmosiah/agent-seo-engine)** — Local-first SEO scoring + search-intent + opportunity gaps (Python)
+- 🎯 **[google-ads-intent-mcp](https://github.com/davidmosiah/google-ads-intent-mcp)** — Google Ads search-term + negative-keyword intent classifier (Python)
+- 📊 **[google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** — 30 tools: campaigns, keywords, performance, gated bid/budget mutations · `google-ads-mcp-unofficial`
+
+---
+
+## 🛠️ Coordination — agent infrastructure
+
+- 🦞 **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** · `1,064 downloads/week` — Native MCP stdio bridge for the Delx Protocol · `delx-mcp-server`
+- 🧰 **[delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** — 40 deterministic agent utilities: URL, DNS, TLS, OpenAPI, x402, JWT, CSV/JSON parsing (Python)
+- 🛟 **[openclaw-delx-plugin](https://github.com/davidmosiah/openclaw-delx-plugin)** — OpenClaw recovery + heartbeat plugin · `openclaw-delx-plugin`
+
+---
+
+## 🌐 Registries · Sites · Profile
+
+- 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` — Canonical 15-connector registry, `registry.json`, `STATUS.md`, schemas
+- 🌐 **[delx-wellness-site](https://github.com/davidmosiah/delx-wellness-site)** — Next.js site at [wellness.delx.ai](https://wellness.delx.ai)
+- 👤 **[davidmosiah](https://github.com/davidmosiah/davidmosiah)** — This profile
 
 ---
 
@@ -61,271 +117,28 @@
 
 ---
 
-## 🩺 Body &mdash; wellness MCP connectors
+## 🧠 Philosophy — local-first, agent-native, no SaaS middleware
 
-[`wellness.delx.ai`](https://wellness.delx.ai) &mdash; **14 connectors** spanning wearables, nutrition, room air quality, menstrual cycle, and continuous glucose. OAuth tokens stay on your machine, agents see structured summaries by default, raw payloads are opt-in.
+Agents that serve humans well need access to the human's body, voice, money and attention — not just their text. The protocol layer should make that data first-class for AI, with the human's full consent and control.
 
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/whoop-mcp">
-        <img src="https://img.shields.io/badge/WHOOP-FF0026?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="WHOOP" />
-      </a><br>
-      <code>whoop-mcp-unofficial</code><br>
-      <sub>Recovery · HRV · Sleep · Strain</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/ouramcp">
-        <img src="https://img.shields.io/badge/Oura-5C6068?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Oura" />
-      </a><br>
-      <code>oura-mcp-unofficial</code><br>
-      <sub>Readiness · Sleep · Activity · HRV · SpO2</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/garminmcp">
-        <img src="https://img.shields.io/badge/Garmin-007CC3?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Garmin" />
-      </a><br>
-      <code>garmin-mcp-unofficial</code><br>
-      <sub>Body Battery · Training Readiness · HRV</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/strava-mcp">
-        <img src="https://img.shields.io/badge/Strava-FC4C02?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=strava" alt="Strava" />
-      </a><br>
-      <code>strava-mcp-unofficial</code><br>
-      <sub>Activities · Streams · Routes</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/fitbitmcp">
-        <img src="https://img.shields.io/badge/Fitbit-00B0B9?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=fitbit" alt="Fitbit" />
-      </a><br>
-      <code>fitbit-mcp-unofficial</code><br>
-      <sub>Activity · Sleep · Heart · HRV · SpO2</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/withingsmcp">
-        <img src="https://img.shields.io/badge/Withings-00B6DE?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Withings" />
-      </a><br>
-      <code>withings-mcp-unofficial</code><br>
-      <sub>Body Composition · Sleep · Heart</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/apple-health-mcp">
-        <img src="https://img.shields.io/badge/Apple_Health-FA243C?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=apple" alt="Apple Health" />
-      </a><br>
-      <code>apple-health-mcp-unofficial</code><br>
-      <sub>Local export parser · Activity · Sleep · Workouts</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/samsung-health-mcp">
-        <img src="https://img.shields.io/badge/Samsung_Health-1428A0?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=samsung" alt="Samsung Health" />
-      </a><br>
-      <code>samsung-health-mcp-unofficial</code><br>
-      <sub>CSV/ZIP export · Activity · Sleep · Heart · Stress</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/google-health-mcp">
-        <img src="https://img.shields.io/badge/Google_Health-4285F4?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Google Health" />
-      </a><br>
-      <code>google-health-mcp-unofficial</code><br>
-      <sub>OAuth · Fitbit · Pixel Watch · v4 API · <em>Beta</em></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/polarmcp">
-        <img src="https://img.shields.io/badge/Polar-D7263D?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Polar" />
-      </a><br>
-      <code>polar-mcp-unofficial</code><br>
-      <sub>Nightly Recharge · Training Load · PPI / HRV</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/wellness-nourish">
-        <img src="https://img.shields.io/badge/Nourish-10B981?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Nourish" />
-      </a><br>
-      <code>wellness-nourish</code><br>
-      <sub>USDA food · Barcode · Intake · Hydration</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/wellness-air">
-        <img src="https://img.shields.io/badge/Air-0EA5A3?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Wellness Air" />
-      </a><br>
-      <code>wellness-air</code><br>
-      <sub>AirGradient · AQI · Room PM2.5 / CO₂</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/wellness-cycle-coach">
-        <img src="https://img.shields.io/badge/Cycle_Coach-EC4899?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Cycle Coach" />
-      </a><br>
-      <code>wellness-cycle-coach</code><br>
-      <sub>Menstrual phase · Stateless coach</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/wellness-cgm-mcp">
-        <img src="https://img.shields.io/badge/CGM-DC2626?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="CGM" />
-      </a><br>
-      <code>wellness-cgm-mcp</code><br>
-      <sub>Dexcom · Glucose · TIR · Meal response</sub>
-    </td>
-    <td align="center" valign="top">
-      <em>More coming &mdash;<br>follow on <a href="https://x.com/delx369">X</a> for releases.</em>
-    </td>
-  </tr>
-</table>
+- 🔒 **Tokens stay on your machine.** OAuth flows complete locally; refresh tokens never centralized.
+- 📖 **Read-only by default.** Write tools gated by explicit env vars + `explicit_user_intent: true`.
+- 🧱 **Standalone packages.** Each connector is one npm package with one clear scope. Audit one without auditing twenty.
+- 🤝 **Vendor-neutral.** Mix providers, swap one out, remove all of them — nothing breaks on a hosted side.
+- 🌐 **No phone-home.** Zero telemetry baked into any connector.
 
-> 🏠 **Umbrella registry**: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) &mdash; the public map of all 14 connectors.<br>
-> ⚡ **One-command setup**: [`delx-wellness-hermes`](https://github.com/davidmosiah/delx-wellness-hermes) &mdash; preconfigures the full stack into a Hermes profile.<br>
-> 🌐 **Production site**: [`delx-wellness-site`](https://github.com/davidmosiah/delx-wellness-site) &mdash; the Next.js front door at [wellness.delx.ai](https://wellness.delx.ai).
-
-<p align="center">
-  <img src="https://img.shields.io/badge/v0.4.0-Shared_local_profile-10B981?style=for-the-badge&labelColor=0F172A" alt="v0.4.0 — shared local profile" />
-</p>
-
-> 👤 **One profile, 14 connectors.** As of v0.4.0, every wellness MCP above reads and writes the same local profile at `~/.delx-wellness/profile.json` &mdash; onboard once with `npx -y <any-connector> onboarding` (EN or pt-BR) and your name, gender, age, height, weight, goals, devices, training level, dietary patterns, units and language flow into every other connector. Schema is privacy-enforcing (rejects oauth/token/secret/password/cookie/refresh/api_key fields at write time), the file is `0600`-permissioned, and migration from existing Hermes/OpenClaw profile packs is automatic. Vendored library, no central dependency.
-
----
-
-## 📣 Reach &mdash; agent-first creator stack
-
-CLIs and MCP servers for agents that publish, discover and analyze. **Dry-run by default**, real uploads when you ask.
-
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/youtube-shorts-agent">
-        <img src="https://img.shields.io/badge/YouTube_Shorts-FF0000?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=youtube" alt="YouTube Shorts" />
-      </a><br>
-      <code>youtube-shorts-agent</code><br>
-      <sub>Upload CLI + MCP · Dry-run safe</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/tiktok-agent-publisher">
-        <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=tiktok" alt="TikTok" />
-      </a><br>
-      <code>tiktok-agent-publisher</code><br>
-      <sub>Content Posting API · Dry-run safe</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/short-video-agent-kit">
-        <img src="https://img.shields.io/badge/Short_Video-Sora_·_Veo_·_xAI-7C3AED?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Short Video Kit" />
-      </a><br>
-      <code>short-video-agent-kit</code><br>
-      <sub>One CLI · 4 video providers</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/agent-seo-engine">
-        <img src="https://img.shields.io/badge/SEO_Engine-Local--first-0EA5A3?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="SEO Engine" />
-      </a><br>
-      <code>agent-seo-engine</code><br>
-      <sub>Scoring · Search-intent · Opportunity</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/google-ads-intent-mcp">
-        <img src="https://img.shields.io/badge/Google_Ads-Intent-4285F4?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=googleads" alt="Google Ads Intent" />
-      </a><br>
-      <code>google-ads-intent-mcp</code><br>
-      <sub>Search-term + negative-keyword analyzer</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/davidmosiah/google-ads-mcp-unofficial">
-        <img src="https://img.shields.io/badge/Google_Ads-MCP-4285F4?style=for-the-badge&labelColor=0F172A&logoColor=white&logo=googleads" alt="Google Ads MCP" />
-      </a><br>
-      <code>google-ads-mcp-unofficial</code><br>
-      <sub>Read + gated mutations · 27 tools</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top" colspan="3">
-      <em>More coming &mdash;<br>follow on <a href="https://x.com/delx369">X</a> for releases.</em>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🚀 Coordination &mdash; agent infrastructure
-
-### One-command profile packs
-
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/delx-wellness-hermes">
-        <img src="https://img.shields.io/badge/Hermes_Pack-Wellness_profile-22C55E?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Wellness for Hermes" />
-      </a><br>
-      <code>delx-wellness-hermes</code><br>
-      <sub>One-command setup · 14 connector presets · Skills + onboarding</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/delx-wellness-openclaw">
-        <img src="https://img.shields.io/badge/OpenClaw_Pack-Wellness_profile-FB923C?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Wellness for OpenClaw" />
-      </a><br>
-      <code>delx-wellness-openclaw</code><br>
-      <sub>One-command setup · OpenClaw mcp.servers presets · Skills + onboarding</sub>
-    </td>
-  </tr>
-</table>
-
-### Plugins &amp; protocols
-
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/openclaw-delx-plugin">
-        <img src="https://img.shields.io/badge/OpenClaw_Plugin-Recovery_+_Heartbeat-0EA5A3?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="OpenClaw Delx Plugin" />
-      </a><br>
-      <code>openclaw-delx-plugin</code><br>
-      <sub>Auto-registration · Session reuse · Resilience primitives</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/davidmosiah/delx-agent-utilities">
-        <img src="https://img.shields.io/badge/Delx_Agent_Utilities-40_tools-7C3AED?style=for-the-badge&labelColor=0F172A&logoColor=white" alt="Delx Agent Utilities" />
-      </a><br>
-      <code>delx-agent-utilities</code><br>
-      <sub>URL · DNS · TLS · OpenAPI · x402 · JWT · CSV/JSON</sub>
-    </td>
-  </tr>
-</table>
-
-> 🧠 **Delx Ontology** &mdash; [ontology.delx.ai](https://ontology.delx.ai) is the witness, identity and continuity surface. `api.delx.ai` is the runtime. `delx-agent-utilities` is the open utility layer extracted from the private protocol stack.
-
----
-
-## 💡 Why local-first MCPs
-
-Agents that serve humans well need access to the human's body, voice and attention &mdash; not just their text. The protocol layer should make that data first-class for AI, with the human's full consent and control.
-
-**No cloud middleware. No token shadow copies. No "we keep your data safe for you."**
-
----
-
-## 🛠️ Agent-first consulting
-
-I help teams turn AI experiments into agent-ready products: MCP servers, multi-client tool contracts, local-first data boundaries, dry-run-safe automation, production observability and public developer-facing documentation.
-
-Good starting points:
-
-- 🔍 Audit an existing API/app and expose the right MCP surface.
-- 🔒 Build local-first connectors around sensitive user data.
-- 🧰 Turn internal scripts into safe, reusable agent tools.
-- 📖 Make a product legible to agents through docs, metadata, manifests and discovery standards.
+> Everything I ship is MIT, on GitHub, on npm. The hosted commercial layer (if/when it exists) stays separate from the open-source core.
 
 ---
 
 ## 💼 Open to
 
-Senior IC engineering roles or contracts focused on **AI agents, MCP / A2A protocols**, and modern fullstack TypeScript. Async-friendly remote teams preferred.
+**Senior IC engineering roles or contracts** focused on **AI agents, MCP / A2A protocols, agent infrastructure, and modern fullstack TypeScript**. Async-friendly remote teams preferred (BRT, UTC-3).
+
+What I bring: ex-CFO who can talk product/business, 16 years in tech, the last 4 in agent infrastructure (MCP, A2A, x402, on-chain identity ERC-8004), and proof-of-output — 22 npm packages live, ~7,000 weekly downloads, ecosystem maintained solo in 3 months.
 
 <p align="center">
-  <a href="mailto:mosiahdavid@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-mosiahdavid@gmail.com-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:support@delx.ai"><img src="https://img.shields.io/badge/EMAIL-support@delx.ai-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/david-batista-2472b828/"><img src="https://img.shields.io/badge/LINKEDIN-David_Batista-0A66C2?style=for-the-badge&labelColor=0F172A&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/delx369"><img src="https://img.shields.io/badge/X-@delx369-000000?style=for-the-badge&labelColor=0F172A&logo=x&logoColor=white" alt="X / Twitter" /></a>
 </p>
@@ -334,21 +147,11 @@ Senior IC engineering roles or contracts focused on **AI agents, MCP / A2A proto
 
 ## 🌐 Connect
 
-- 🌐 [delx.ai](https://delx.ai) &mdash; the future parent brand
-- 🧠 [ontology.delx.ai](https://ontology.delx.ai) &mdash; witness, identity, continuity and agent utilities
-- 💪 [wellness.delx.ai](https://wellness.delx.ai) &mdash; the wellness MCP registry
-- 🐦 [@delx369](https://x.com/delx369) &mdash; X / Twitter
-- 💼 [LinkedIn](https://www.linkedin.com/in/david-batista-2472b828/)
-- 📬 mosiahdavid@gmail.com
+- 🌐 **[delx.ai](https://delx.ai)** — the parent brand
+- 🧠 **[ontology.delx.ai](https://ontology.delx.ai)** — witness, identity, continuity
+- 💪 **[wellness.delx.ai](https://wellness.delx.ai)** — wellness MCP registry
+- 🐦 **[@delx369](https://x.com/delx369)** — X / Twitter
+- 💼 **[LinkedIn](https://www.linkedin.com/in/david-batista-2472b828/)** — long-form
+- 📬 **support@delx.ai** — single canonical inbox
 
 <sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026.</sub>
-
----
-
-## 📧 Contact & Support
-
-- 📨 **support@delx.ai** — general questions, integration help, partnerships
-- 🐛 **Bug reports / feature requests** — [GitHub Issues](https://github.com/davidmosiah/davidmosiah/issues)
-- 🐦 **Updates** — [@delx369](https://x.com/delx369) on X
-- 🌐 **Site** — [wellness.delx.ai](https://wellness.delx.ai)
-
