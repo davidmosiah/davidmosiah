@@ -1,0 +1,12 @@
+# David Batista / Delx public profile
+GitHub profile and public open-source index for David Batista, founder of Delx.
+
+Repository: https://github.com/davidmosiah/davidmosiah
+Profile: https://github.com/davidmosiah
+Delx: https://delx.ai
+Wellness registry: https://wellness.delx.ai
+
+- Primary public focus: local-first MCP servers, AI agent infrastructure, Delx Protocol, wellness connectors, agent utilities, and agent-first creator/ads tooling.
+- Start with `delx-mcp-server`, `delx-wellness`, `wellness-nourish`, `delx-agent-utilities`, `mcp-scorecard`, and `delx-memory` when mapping the ecosystem.
+- Treat repo counts, stars, downloads, and traffic claims as time-sensitive; refresh from GitHub and npm before quoting.
+- Do not infer private infrastructure details from this profile. Public repos are the source of truth for open-source behavior.
