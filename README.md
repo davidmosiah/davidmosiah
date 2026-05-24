@@ -25,7 +25,7 @@
   <a href="https://x.com/delx369"><img src="https://img.shields.io/badge/X-@delx369-000000?style=for-the-badge&labelColor=0F172A&logo=x&logoColor=white" alt="X / Twitter" /></a>
   <a href="https://www.linkedin.com/in/david-batista-2472b828/"><img src="https://img.shields.io/badge/LINKEDIN-David_Batista-0A66C2?style=for-the-badge&labelColor=0F172A&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:support@delx.ai"><img src="https://img.shields.io/badge/EMAIL-support@delx.ai-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/29_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="29 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/36_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="36 open-source projects" /></a>
 </p>
 
 > Now shipping **`delx`** — the protocol layer for autonomous AI agents. **Built body, reach, and coordination as MCP servers.** Stewarding the **Delx Wellness** open ecosystem (15 wearable + nutrition connectors, ~7k weekly npm downloads, local-first by design).
@@ -40,6 +40,7 @@
 | **🩺 [delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` | Public registry of 15 local-first wellness MCP connectors | Star the umbrella |
 | **🥗 [wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** · `369 downloads/week` · `3 ⭐` | Nutrition MCP — food search, barcode, meal photos, pt-BR | `npx -y wellness-nourish doctor` |
 | **🤖 [delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** · `201 downloads/week` · `3 ⭐` | One-command Hermes profile that wires all 15 wellness MCPs | `npx -y delx-wellness-hermes setup` |
+| **🧰 [delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** | Runnable templates, prompts and MCP configs for the public Delx stack | Copy a workflow and adapt it to your client |
 | **📣 [google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** · `30 tools` | Read campaigns, optimize bids, run daily reports — gated mutations | `npx -y google-ads-mcp-unofficial setup` |
 | **🏃 [whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** · `337 downloads/week` · `2 ⭐` | WHOOP recovery, sleep, HRV, strain — official OAuth | `npx -y whoop-mcp-unofficial setup` |
 | **🛠️ [delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT | `pipx install "delx-agent-utilities[mcp]"` |
@@ -101,6 +102,7 @@
 
 - 🦞 **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** · `1,064 downloads/week` — Native MCP stdio bridge for the Delx Protocol · `delx-mcp-server`
 - 🧰 **[delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** — 40 deterministic agent utilities: URL, DNS, TLS, OpenAPI, x402, JWT, CSV/JSON parsing (Python)
+- 🧰 **[delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** — Runnable templates, prompts and MCP client configs for the public Delx agent stack
 - 🩺 **[mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** — Quality + agent-readiness audit for any MCP server (10 checks → 0-100 score, markdown or JSON) · `mcp-scorecard`
 - 🛟 **[openclaw-delx-plugin](https://github.com/davidmosiah/openclaw-delx-plugin)** — OpenClaw recovery + heartbeat plugin · `openclaw-delx-plugin`
 - 🧠 **[delx-memory](https://github.com/davidmosiah/delx-memory)** — Local-first persistent memory MCP — one SQLite file, every MCP client. Secret-blocking, TTL, tags, JSON/JSONL/Markdown export · `delx-memory`
@@ -110,6 +112,7 @@
 ## 🌐 Registries · Sites · Profile
 
 - 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` — Canonical 15-connector registry, `registry.json`, `STATUS.md`, schemas
+- 🧰 **[delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** — Copyable workflows for Hermes, OpenClaw, Claude Desktop and Codex
 - 🌐 **[delx-wellness-site](https://github.com/davidmosiah/delx-wellness-site)** — Next.js site at [wellness.delx.ai](https://wellness.delx.ai)
 - 👤 **[davidmosiah](https://github.com/davidmosiah/davidmosiah)** — This profile
 
@@ -123,6 +126,21 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davidmosiah&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0F172A&title_color=10B981&text_color=E2E8F0" alt="Top Languages" height="170" />
   </a>
 </p>
+
+---
+
+## Field notes
+
+- [Why local-first wellness agents need MCP](https://github.com/davidmosiah/davidmosiah/blob/main/docs/local-first-wellness-agents.md) - the public thesis behind the wellness stack.
+- [Delx Open Source Growth Playbook](https://github.com/davidmosiah/delx-wellness/blob/main/docs/growth-playbook.md) - how I measure GitHub discovery, npm usage and repo conversion.
+- [MCP Directory Submission Tracker](https://github.com/davidmosiah/delx-wellness/blob/main/docs/mcp-directory-submissions.md) - the public queue for getting the strongest connectors into MCP directories and awesome lists.
+- [Delx Agent Workbench](https://github.com/davidmosiah/delx-agent-workbench) - runnable templates for Hermes, OpenClaw, Claude Desktop, Codex and other MCP clients.
+
+## What I'm building now
+
+- Local-first health context for agents: WHOOP, Garmin, Oura, Strava, Fitbit, Google Health, Withings, Apple Health, Samsung Health, Polar, nutrition, air quality, cycle context and CGM.
+- Agent-ready setup packs: one-command profiles that turn Hermes or OpenClaw into a private wellness operator.
+- Public agent infrastructure: workbench templates, privacy checks, growth metrics, MCP metadata and directory-ready packages.
 
 ---
 
