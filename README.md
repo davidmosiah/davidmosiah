@@ -25,39 +25,41 @@
   <a href="https://x.com/delx369"><img src="https://img.shields.io/badge/X-@delx369-000000?style=for-the-badge&labelColor=0F172A&logo=x&logoColor=white" alt="X / Twitter" /></a>
   <a href="https://www.linkedin.com/in/david-batista-2472b828/"><img src="https://img.shields.io/badge/LINKEDIN-David_Batista-0A66C2?style=for-the-badge&labelColor=0F172A&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:support@delx.ai"><img src="https://img.shields.io/badge/EMAIL-support@delx.ai-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/36_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="36 open-source projects" /></a>
+  <a href="https://github.com/davidmosiah?tab=repositories&type=public"><img src="https://img.shields.io/badge/33_OPEN--SOURCE-MIT-22C55E?style=for-the-badge&labelColor=0F172A" alt="33 open-source projects" /></a>
 </p>
 
-> Now shipping **`delx`** — the protocol layer for autonomous AI agents. **Built body, reach, and coordination as MCP servers.** Stewarding the **Delx Wellness** open ecosystem (15 wearable + nutrition connectors, ~7k weekly npm downloads, local-first by design).
+> Building **`delx`** — local-first MCP servers and the protocol layer for autonomous AI agents, organized in three verticals: **Body**, **Reach**, and **Coordination**.
+> 33 public repos · 26 npm + 3 PyPI packages · ~6.9k weekly npm downloads · MIT, local-first by design.
 
 ---
 
-## 🎯 Start Here
+## 🎯 Start Here — 3 verticals, 3 flagship entrypoints
 
-| Project | What it is | Try it |
-|---|---|---|
-| **🦞 [delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** · `1,064 downloads/week` | Native MCP stdio bridge for the Delx Protocol | `npx -y delx-mcp-server` |
-| **🩺 [delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` | Public registry of 15 local-first wellness MCP connectors | Star the umbrella |
-| **🥗 [wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** · `369 downloads/week` · `3 ⭐` | Nutrition MCP — food search, barcode, meal photos, pt-BR | `npx -y wellness-nourish doctor` |
-| **🤖 [delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** · `201 downloads/week` · `3 ⭐` | One-command Hermes profile that wires all 15 wellness MCPs | `npx -y delx-wellness-hermes setup` |
-| **🧰 [delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** | Runnable templates, prompts and MCP configs for the public Delx stack | Copy a workflow and adapt it to your client |
-| **📣 [google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** · `30 tools` | Read campaigns, optimize bids, run daily reports — gated mutations | `npx -y google-ads-mcp-unofficial setup` |
-| **🏃 [whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** · `337 downloads/week` · `2 ⭐` | WHOOP recovery, sleep, HRV, strain — official OAuth | `npx -y whoop-mcp-unofficial setup` |
-| **🛠️ [delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** | 40 deterministic utility tools for agents: URL, DNS, TLS, OpenAPI, x402, JWT | `pipx install "delx-agent-utilities[mcp]"` |
-| **🩺 [mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** | Agent-readiness scorecard for any MCP server. Probes + 10 checks + 0-100 score | `npx -y mcp-scorecard <pkg-or-repo>` |
-| **🧠 [delx-memory](https://github.com/davidmosiah/delx-memory)** | Shared SQLite memory for Claude/Cursor/Hermes/OpenClaw/Codex — secret-blocking, TTL, tags | `npx -y delx-memory doctor` |
-| **🫀 [delx-living-body](https://github.com/davidmosiah/delx-living-body)** | Meta-MCP that auto-detects your installed wellness connectors and composes them into a unified body data layer | `npx -y delx-living-body doctor` |
+| Vertical | Flagship | What it is | Try it |
+|---|---|---|---|
+| 🫀 **Body** | **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** | Meta-MCP that auto-detects your installed wellness connectors and composes them into one unified body-data layer (no LLM calls) | `npx -y delx-living-body doctor` |
+| 📣 **Reach** | **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** | One CLI, four video providers (Sora · Veo · xAI · Hailuo), dry-run safe | `npx -y short-video-agent-kit` |
+| 🛠️ **Coordination** | **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** | Native MCP stdio bridge for the Delx Protocol | `npx -y delx-mcp-server` |
 
 ---
 
-## 🩺 Wellness — wearable & body-data MCPs
+## 🫀 Body — local-first wearable & body-data MCPs
 
-> **15 local-first connectors, 1 shared `~/.delx-wellness/profile.json`, zero data leaves your machine.**
-> Public registry: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) · Site: [wellness.delx.ai](https://wellness.delx.ai)
+> One shared `~/.delx-wellness/profile.json`, zero data leaves your machine.
+> Public registry: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (11 ⭐) · Site: [wellness.delx.ai](https://wellness.delx.ai)
 
-### Wearables (11)
+**Start here:**
 
-- 🩻 **[whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** — Recovery, HRV, sleep stages, day strain · `whoop-mcp-unofficial`
+- 🫀 **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** — Meta-MCP that auto-detects which connectors you have installed and composes them into a unified `delx-wellness-context/v1` shape with a rule-based synthesizer · `delx-living-body`
+- 🤖 **[delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** (4 ⭐) — One-command Hermes profile pack that wires every wellness connector + skills + onboarding · `npx -y delx-wellness-hermes setup`
+- 🦞 **[delx-wellness-openclaw](https://github.com/davidmosiah/delx-wellness-openclaw)** — The same installer for the OpenClaw runtime · `npx -y delx-wellness-openclaw setup`
+
+<details>
+<summary><b>12+ specific connectors</b> — wearables, nutrition, environment, body</summary>
+
+### Wearables
+
+- 🩻 **[whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** (3 ⭐) — Recovery, HRV, sleep stages, day strain · `whoop-mcp-unofficial`
 - 💍 **[ouramcp](https://github.com/davidmosiah/ouramcp)** — Readiness, sleep, activity, HRV, SpO2 · `oura-mcp-unofficial`
 - ⌚ **[garminmcp](https://github.com/davidmosiah/garminmcp)** — Body Battery, training readiness, HRV, stress · `garmin-mcp-unofficial`
 - 🏃 **[strava-mcp](https://github.com/davidmosiah/strava-mcp)** — Activities, streams, athlete stats, GPS-redacted by default · `strava-mcp-unofficial`
@@ -69,50 +71,44 @@
 - ⚡ **[polarmcp](https://github.com/davidmosiah/polarmcp)** — Nightly Recharge, training load, PPI/HRV · `polar-mcp-unofficial`
 - 🛏️ **[eight-sleep-mcp](https://github.com/davidmosiah/eight-sleep-mcp)** — Smart mattress: trends + temperature schedule + alarms (gated mutations) · `eight-sleep-mcp-unofficial`
 
-### Nutrition · Environment · Body (4)
+### Nutrition · Environment · Body
 
-- 🥗 **[wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** — Food search (USDA + TACO + Open Food Facts), barcode, meal photos, pt-BR · `wellness-nourish`
+- 🥗 **[wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** (4 ⭐) — Food search (USDA + TACO + Open Food Facts), barcode, meal photos, pt-BR · `wellness-nourish`
 - 🌬️ **[wellness-air](https://github.com/davidmosiah/wellness-air)** — Indoor air quality (AirGradient): PM2.5, CO2, VOC, AQI · `wellness-air`
 - 🌸 **[wellness-cycle-coach](https://github.com/davidmosiah/wellness-cycle-coach)** — Stateless menstrual-cycle coach (phase detection, nutrition, training) · `wellness-cycle-coach`
 - 🩸 **[wellness-cgm-mcp](https://github.com/davidmosiah/wellness-cgm-mcp)** — Dexcom CGM with TIR/GMI/meal response · `wellness-cgm-mcp`
 
-### Meta-connector (1)
-
-- 🫀 **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** — Auto-detects which of the 15 connectors are installed and composes them into a unified `delx-wellness-context/v1` shape with a rule-based synthesizer (no LLM calls) · `delx-living-body`
-
-### Profile packs (2)
-
-- 🤖 **[delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** — One-command Hermes profile pack (15 connectors + skills + onboarding) · `delx-wellness-hermes`
-- 🦞 **[delx-wellness-openclaw](https://github.com/davidmosiah/delx-wellness-openclaw)** — Same shape for OpenClaw runtime · `delx-wellness-openclaw`
+</details>
 
 ---
 
 ## 📣 Reach — agent-first creator stack
 
-- 📺 **[youtube-shorts-agent](https://github.com/davidmosiah/youtube-shorts-agent)** — YouTube Shorts upload CLI + MCP (dry-run safe) · `youtube-shorts-agent`
-- 🎵 **[tiktok-agent-publisher](https://github.com/davidmosiah/tiktok-agent-publisher)** — TikTok Content Posting API CLI + MCP (dry-run safe) · `tiktok-agent-publisher`
-- 🎬 **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** — One CLI · 4 video providers (Sora · Veo · xAI · Hailuo) · `short-video-agent-kit`
+> Flagship: **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** — one CLI · 4 video providers (Sora · Veo · xAI · Hailuo) · `short-video-agent-kit`
+
+- 📺 **[youtube-shorts-agent](https://github.com/davidmosiah/youtube-shorts-agent)** — YouTube Shorts upload CLI + MCP, dry-run safe · `youtube-shorts-agent`
+- 🎵 **[tiktok-agent-publisher](https://github.com/davidmosiah/tiktok-agent-publisher)** — TikTok Content Posting API CLI + MCP, dry-run safe · `tiktok-agent-publisher`
+- 📊 **[google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** — 30 tools: campaigns, keywords, performance, gated bid/budget mutations · `google-ads-mcp-unofficial`
 - 🔍 **[agent-seo-engine](https://github.com/davidmosiah/agent-seo-engine)** — Local-first SEO scoring + search-intent + opportunity gaps (Python)
 - 🎯 **[google-ads-intent-mcp](https://github.com/davidmosiah/google-ads-intent-mcp)** — Google Ads search-term + negative-keyword intent classifier (Python)
-- 📊 **[google-ads-mcp-unofficial](https://github.com/davidmosiah/google-ads-mcp-unofficial)** — 30 tools: campaigns, keywords, performance, gated bid/budget mutations · `google-ads-mcp-unofficial`
 
 ---
 
 ## 🛠️ Coordination — agent infrastructure
 
-- 🦞 **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** · `1,064 downloads/week` — Native MCP stdio bridge for the Delx Protocol · `delx-mcp-server`
-- 🧰 **[delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** — 40 deterministic agent utilities: URL, DNS, TLS, OpenAPI, x402, JWT, CSV/JSON parsing (Python)
-- 🧰 **[delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** — Runnable templates, prompts and MCP client configs for the public Delx agent stack
+> Flagship: **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** — native MCP stdio bridge for the Delx Protocol · `delx-mcp-server`
+
+- 🧠 **[delx-memory](https://github.com/davidmosiah/delx-memory)** — Local-first persistent memory MCP: one SQLite file, every MCP client. Secret-blocking, TTL, tags, JSON/JSONL/Markdown export · `delx-memory`
 - 🩺 **[mcp-scorecard](https://github.com/davidmosiah/mcp-scorecard)** — Quality + agent-readiness audit for any MCP server (10 checks → 0-100 score, markdown or JSON) · `mcp-scorecard`
+- 🛠️ **[delx-agent-utilities](https://github.com/davidmosiah/delx-agent-utilities)** — 40 deterministic agent utilities: URL, DNS, TLS, OpenAPI, x402, JWT, CSV/JSON parsing (Python) · `pipx install "delx-agent-utilities[mcp]"`
+- 🧰 **[delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** — Runnable templates, prompts and MCP client configs for the public Delx stack
 - 🛟 **[openclaw-delx-plugin](https://github.com/davidmosiah/openclaw-delx-plugin)** — OpenClaw recovery + heartbeat plugin · `openclaw-delx-plugin`
-- 🧠 **[delx-memory](https://github.com/davidmosiah/delx-memory)** — Local-first persistent memory MCP — one SQLite file, every MCP client. Secret-blocking, TTL, tags, JSON/JSONL/Markdown export · `delx-memory`
 
 ---
 
 ## 🌐 Registries · Sites · Profile
 
-- 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** · `10 ⭐` — Canonical 15-connector registry, `registry.json`, `STATUS.md`, schemas
-- 🧰 **[delx-agent-workbench](https://github.com/davidmosiah/delx-agent-workbench)** — Copyable workflows for Hermes, OpenClaw, Claude Desktop and Codex
+- 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** (11 ⭐) — Canonical connector registry, `registry.json`, `STATUS.md`, schemas
 - 🌐 **[delx-wellness-site](https://github.com/davidmosiah/delx-wellness-site)** — Next.js site at [wellness.delx.ai](https://wellness.delx.ai)
 - 👤 **[davidmosiah](https://github.com/davidmosiah/davidmosiah)** — This profile
 
@@ -162,7 +158,7 @@ Agents that serve humans well need access to the human's body, voice, money and 
 
 **Senior IC engineering roles or contracts** focused on **AI agents, MCP / A2A protocols, agent infrastructure, and modern fullstack TypeScript**. Async-friendly remote teams preferred (BRT, UTC-3).
 
-What I bring: ex-CFO who can talk product/business, 16 years in tech, the last 4 in agent infrastructure (MCP, A2A, x402, on-chain identity ERC-8004), and proof-of-output — 22 npm packages live, ~7,000 weekly downloads, ecosystem maintained solo in 3 months.
+What I bring: ex-CFO who can talk product/business, 16 years in tech, the last 4 in agent infrastructure (MCP, A2A, x402, on-chain identity ERC-8004), and proof-of-output — 26 npm + 3 PyPI packages live, ~6.9k weekly npm downloads, ecosystem maintained solo in 3 months.
 
 <p align="center">
   <a href="mailto:support@delx.ai"><img src="https://img.shields.io/badge/EMAIL-support@delx.ai-EA4335?style=for-the-badge&labelColor=0F172A&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -181,4 +177,6 @@ What I bring: ex-CFO who can talk product/business, 16 years in tech, the last 4
 - 💼 **[LinkedIn](https://www.linkedin.com/in/david-batista-2472b828/)** — long-form
 - 📬 **support@delx.ai** — single canonical inbox
 
-<sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026.</sub>
+<sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026. Métricas atualizadas em 2026-05-29.</sub>
+</content>
+</invoke>
