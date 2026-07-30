@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-30",
+  "note": "Live pull during OSS mode block. npm last7d = trailing week from registry. Picos de download coincidem com releases/scanners — ver median_daily_28d quando disponível.",
+  "github": {
+    "login": "davidmosiah",
+    "followers": 9,
+    "public_repos": 47,
+    "total_stars_own_non_fork": 123,
+    "top_repos": [
+      { "name": "google-health-mcp", "stars": 33, "forks": 7, "open_issues": 4, "pushed": "2026-07-27" },
+      { "name": "delx-wellness", "stars": 20, "forks": 1, "open_issues": 3, "pushed": "2026-07-17" },
+      { "name": "delx-wellness-hermes", "stars": 14, "forks": 2, "open_issues": 1, "pushed": "2026-07-26" },
+      { "name": "whoop-mcp", "stars": 8, "forks": 2, "open_issues": 1, "pushed": "2026-07-27" },
+      { "name": "garmin-mcp", "stars": 7, "forks": 2, "open_issues": 2, "pushed": "2026-07-27" },
+      { "name": "samsung-health-mcp", "stars": 7, "forks": 1, "open_issues": 0, "pushed": "2026-07-27" },
+      { "name": "wellness-nourish", "stars": 7, "forks": 3, "open_issues": 1, "pushed": "2026-07-27" },
+      { "name": "creative-forge", "stars": 6, "forks": 0, "open_issues": 0, "pushed": "2026-07-27" }
+    ]
+  },
+  "npm_last7d": {
+    "google-health-mcp-unofficial": 283,
+    "wellness-nourish": 258,
+    "garmin-mcp-unofficial": 239,
+    "whoop-mcp-unofficial": 183,
+    "withings-mcp-unofficial": 150,
+    "samsung-health-mcp-unofficial": 111,
+    "short-video-agent-kit": 76,
+    "mcp-scorecard": 60,
+    "delx-living-body": 49,
+    "delx-wellness-hermes": 46
+  },
+  "npm_28d_sample": {
+    "google-health-mcp-unofficial": { "sum": 1658, "median_daily": 48, "last7": 283 },
+    "wellness-nourish": { "sum": 1191, "median_daily": 33, "last7": 258 },
+    "whoop-mcp-unofficial": { "sum": 958, "median_daily": 30, "last7": 183 }
+  },
+  "top5_maintenance": [
+    "google-health-mcp",
+    "delx-wellness",
+    "wellness-nourish",
+    "whoop-mcp",
+    "creative-forge"
+  ],
+  "open_external_signal": {
+    "google-health-mcp_15": "daily_rollup nutrition-log page_size (fixed 0.5.4)",
+    "oura-mcp_8": "setup/doctor bug",
+    "polar-mcp_4": "malformed date params",
+    "garmin-mcp_19": "Kindred / Xiaomi token budget question"
+  }
+}

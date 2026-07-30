@@ -1,0 +1,108 @@
+# OSS operating mode — 2026-07-30
+
+Canonical rules for the public open-source surface under `davidmosiah`.
+This is **not** a product FOCO. It is the **authority / career probe** of the
+portfolio cycle (inbound of weight by 2026-09-30), plus hygiene on packages
+that already pull.
+
+Related private notes live in the workspace vault when free
+(`00-workspace-index/Notes/`). This file is the public, checkable copy.
+
+## Thesis (one line)
+
+**Deepen the few packages that already pull. Never grow the catalog for its own sake.**
+
+Authority arrives via **pull** (issues, PRs, DMs, job/partner inbound) — not via
+leaderboard megaphones or Show HN campaigns. Those push surfaces were archived
+on 2026-07-06 and only return if real inbound appears.
+
+## Layer model
+
+```
+MIT / AGPL connectors & engines  →  free, local-first, npx
+            ↑
+Commercial convenience           →  setup help, audit, hosted OAuth, x402 utilities
+            ↑
+Protocol / witness (Delx)        →  always free; never paywall care
+```
+
+## Top 5 maintenance surface
+
+Only these “exist” for proactive work. Everything else is best-effort.
+
+| # | Repo | Why |
+|---|---|---|
+| 1 | [`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp) | Discovery hero (~33★); strongest install intent |
+| 2 | [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (+ hermes pack) | Body umbrella / registry |
+| 3 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Strong npm median; nutrition utility |
+| 4 | [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) (or wearable with live issues) | Mature connector + real users |
+| 5 | [`creative-forge`](https://github.com/davidmosiah/creative-forge) | Public AGPL engine; dogfood in private ops |
+
+Cadence:
+
+- **Weekly (15–30 min):** external issues/PRs on the top 5
+- **Monthly:** refresh public metrics (stars, median npm downloads)
+- **Only with inbound:** Show HN, DMs to Anthropic/MCP teams, authority campaigns
+- **Never:** new MCP “just because”; polish all 35 READMEs; revive leaderboard push
+
+## Anti-list
+
+- Do not open a 4th product FOCO named “OSS authority”
+- Do not clone random OSS apps into the boring-apps factory (use `boring-apps/shared`)
+- Do not paywall Protocol/witness
+- Do not expose SuperGrok / mediagen as a public OSS or x402 gateway
+- Do not treat npm download spikes as human demand (scanners/CI/npx noise)
+- Do not re-open BodyPort, Recado, or the Google Health “proof loop experiment”
+  as timeboxed FOCOs without a new written criterion
+
+## When a new public repo may ship
+
+All of:
+
+1. Already dogfooded in production (or clear equivalent)
+2. Fresh history, secret scan clean, no private ops data
+3. One clear flagship slot in a vertical (not “another whoop”)
+4. LICENSE + README first-screen value + install path + tests
+
+## Vertical flagships
+
+| Vertical | Flagship (2026-07-30) |
+|---|---|
+| Body | `google-health-mcp` (discovery) · `delx-living-body` (composition) |
+| Reach | `short-video-agent-kit` |
+| Coordination | `delx-mcp-server` / Delx Protocol |
+
+## Commercial layer (above OSS)
+
+- Wellness: setup concierge, MCP audit (`mcp-scorecard`), private deploy — see
+  delx-wellness `docs/open-source-support.md`
+- Agent utilities: Delx Commerce / x402 (timeboxed experiment; separate from FOCOs)
+- Scorecard “Pro / certification” stays **frozen** until someone asks for a badge
+  or Commerce proves willingness to pay
+
+## Metrics that matter
+
+| Signal | Use |
+|---|---|
+| Stars on hero repos | Discovery proof |
+| External issues/PRs | Builder intent |
+| npm **median daily** downloads | Install intent (ignore one-day spikes) |
+| Inbound of weight (job, partner, acquisition chat) | Cycle-of-7-years success for this probe |
+
+Snapshot helper: regenerate account metrics with the delx-wellness growth scripts
+when available; store dated snapshots next to this note or in the vault
+`_data/oss-snapshot.json`.
+
+## Snapshot 2026-07-30 (live)
+
+- GitHub: 47 public repos, ~123★ total, 9 followers
+- Hero: google-health-mcp 33★ / 7 forks
+- npm last-7d (sample): google-health-mcp-unofficial 283 · wellness-nourish 258 ·
+  whoop-mcp-unofficial 183 · garmin-mcp-unofficial 239
+- npm 28d median daily: google-health ~48 · nourish ~33 · whoop ~30
+
+## Relationship to product FOCOs
+
+Apple/App Store FOCOs (MannaCup, Avemaris, NinaSom) own product attention.
+OSS work is **maintenance + inbound** when those FOCOs are blocked (review
+queues, etc.). Capacity free ≠ permission to invent a new vertical.

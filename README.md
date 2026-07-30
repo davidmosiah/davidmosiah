@@ -30,24 +30,26 @@
 
 > Building **`delx`** — local-first MCP servers and the protocol layer for autonomous AI agents, organized in three verticals: **Body**, **Reach**, and **Coordination**.
 > Installable projects across npm and PyPI · MIT, local-first by design · [public growth methodology](https://github.com/davidmosiah/delx-wellness/blob/main/docs/growth-playbook.md).
+>
+> **OSS mode (2026-07-30):** deepen the few packages that already pull — no catalog sprawl. Operating notes: [OSS operating mode](https://github.com/davidmosiah/davidmosiah/blob/main/docs/oss-operating-mode.md).
 
 ---
 
-## Current OSS experiment — validate Google Health with a real account
+## Current discovery hero — Google Health MCP (33 ⭐)
 
-The strongest current discovery signal is
-[`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp). If you
-have Fitbit, Pixel Watch, Android health data or Google Health API v4 access,
-run the read-only coverage check:
+The strongest public discovery signal is
+[`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp)
+(`google-health-mcp-unofficial@0.5.4` on npm). Local-first Google Health API v4
+for Fitbit / Pixel Watch / Android health data.
 
 ```bash
-npx -y google-health-mcp-unofficial coverage --live --json
+npx -y google-health-mcp-unofficial@0.5.4 setup
+npx -y google-health-mcp-unofficial@0.5.4 coverage --live --json
 ```
 
-Review the redacted output and share it in
+Redacted coverage reports help most — share in
 [`google-health-mcp` issue #3](https://github.com/davidmosiah/google-health-mcp/issues/3).
-The report is designed to omit OAuth secrets, local paths and raw health
-measurements.
+Reports omit OAuth secrets, local paths and raw health measurements.
 
 ---
 
@@ -55,21 +57,25 @@ measurements.
 
 | Vertical | Flagship | What it is | Try it |
 |---|---|---|---|
-| 🫀 **Body** | **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** | Meta-MCP that auto-detects your installed wellness connectors and composes them into one unified body-data layer (no LLM calls) | `npx -y delx-living-body doctor` |
+| 🫀 **Body** | **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** (33 ⭐) | Google Health API v4 beta — Fitbit, Pixel Watch, partners — local OAuth | `npx -y google-health-mcp-unofficial@0.5.4 doctor` |
 | 📣 **Reach** | **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** | One CLI, four video providers (Sora · Veo · xAI · Hailuo), dry-run safe | `npx -y short-video-agent-kit` |
 | 🛠️ **Coordination** | **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** | Native MCP stdio bridge for the Delx Protocol | `npx -y delx-mcp-server` |
+
+Body composition meta-MCP (after you install connectors):
+**[delx-living-body](https://github.com/davidmosiah/delx-living-body)** · `npx -y delx-living-body doctor`
 
 ---
 
 ## 🫀 Body — local-first wearable & body-data MCPs
 
 > One shared `~/.delx-wellness/profile.json`, zero data leaves your machine.
-> Public registry: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (17 ⭐) · Site: [wellness.delx.ai](https://wellness.delx.ai)
+> Public registry: [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (20 ⭐) · Site: [wellness.delx.ai](https://wellness.delx.ai)
 
 **Start here:**
 
+- 📱 **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** (33 ⭐) — Discovery hero · Google Health API v4 · `google-health-mcp-unofficial@0.5.4`
 - 🫀 **[delx-living-body](https://github.com/davidmosiah/delx-living-body)** — Meta-MCP that auto-detects which connectors you have installed and composes them into a unified `delx-wellness-context/v1` shape with a rule-based synthesizer · `delx-living-body`
-- 🤖 **[delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** (13 ⭐) — One-command Hermes profile pack that wires every wellness connector + skills + onboarding · `npx -y delx-wellness-hermes setup`
+- 🤖 **[delx-wellness-hermes](https://github.com/davidmosiah/delx-wellness-hermes)** (14 ⭐) — One-command Hermes profile pack that wires every wellness connector + skills + onboarding · `npx -y delx-wellness-hermes setup`
 - 🦞 **[delx-wellness-openclaw](https://github.com/davidmosiah/delx-wellness-openclaw)** — The same installer for the OpenClaw runtime · `npx -y delx-wellness-openclaw setup`
 
 <details>
@@ -77,15 +83,15 @@ measurements.
 
 ### Wearables
 
-- 🩻 **[whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** (6 ⭐) — Recovery, HRV, sleep stages, day strain · `whoop-mcp-unofficial`
+- 🩻 **[whoop-mcp](https://github.com/davidmosiah/whoop-mcp)** (8 ⭐) — Recovery, HRV, sleep stages, day strain · `whoop-mcp-unofficial`
 - 💍 **[ouramcp](https://github.com/davidmosiah/ouramcp)** — Readiness, sleep, activity, HRV, SpO2 · `oura-mcp-unofficial`
-- ⌚ **[garminmcp](https://github.com/davidmosiah/garminmcp)** — Body Battery, training readiness, HRV, stress · `garmin-mcp-unofficial`
+- ⌚ **[garminmcp](https://github.com/davidmosiah/garminmcp)** (7 ⭐) — Body Battery, training readiness, HRV, stress · `garmin-mcp-unofficial`
 - 🏃 **[strava-mcp](https://github.com/davidmosiah/strava-mcp)** — Activities, streams, athlete stats, GPS-redacted by default · `strava-mcp-unofficial`
 - 📲 **[fitbitmcp](https://github.com/davidmosiah/fitbitmcp)** — Activity, sleep, intraday heart, HRV · `fitbit-mcp-unofficial`
-- 📱 **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** (23 ⭐) — Google Health API v4 beta (Pixel Watch + Fitbit migration) · `google-health-mcp-unofficial`
+- 📱 **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** (33 ⭐) — Google Health API v4 beta (Pixel Watch + Fitbit migration) · `google-health-mcp-unofficial@0.5.4`
 - ⚖️ **[withingsmcp](https://github.com/davidmosiah/withingsmcp)** — Body composition, sleep, BP/ECG · `withings-mcp-unofficial`
 - 🍎 **[apple-health-mcp](https://github.com/davidmosiah/apple-health-mcp)** — Local `export.zip` parser, activity/sleep/HRV/workouts · `apple-health-mcp-unofficial`
-- 🌌 **[samsung-health-mcp](https://github.com/davidmosiah/samsung-health-mcp)** — Galaxy Watch CSV/ZIP export reader · `samsung-health-mcp-unofficial`
+- 🌌 **[samsung-health-mcp](https://github.com/davidmosiah/samsung-health-mcp)** (7 ⭐) — Galaxy Watch CSV/ZIP export reader · `samsung-health-mcp-unofficial`
 - ⚡ **[polarmcp](https://github.com/davidmosiah/polarmcp)** — Nightly Recharge, training load, PPI/HRV · `polar-mcp-unofficial`
 - 🛏️ **[eight-sleep-mcp](https://github.com/davidmosiah/eight-sleep-mcp)** — Smart mattress: trends + temperature schedule + alarms (gated mutations) · `eight-sleep-mcp-unofficial`
 
@@ -133,8 +139,9 @@ measurements.
 
 ## 🌐 Registries · Sites · Profile
 
-- 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** (17 ⭐) — Canonical connector registry, `registry.json`, `STATUS.md`, schemas
+- 📚 **[delx-wellness](https://github.com/davidmosiah/delx-wellness)** (20 ⭐) — Canonical connector registry, `registry.json`, `STATUS.md`, schemas
 - 🌐 **[delx-wellness-site](https://github.com/davidmosiah/delx-wellness-site)** — Next.js site at [wellness.delx.ai](https://wellness.delx.ai)
+- 🔥 **[creative-forge](https://github.com/davidmosiah/creative-forge)** (6 ⭐) — AGPL creative engine (public demo only; real campaigns stay private)
 - 👤 **[davidmosiah](https://github.com/davidmosiah/davidmosiah)** — This profile
 
 ---
@@ -152,15 +159,16 @@ measurements.
 
 ## Field notes
 
+- [OSS operating mode](https://github.com/davidmosiah/davidmosiah/blob/main/docs/oss-operating-mode.md) — top-5 maintenance, anti-list, cadence, how new public repos may ship.
 - [Why local-first wellness agents need MCP](https://github.com/davidmosiah/davidmosiah/blob/main/docs/local-first-wellness-agents.md) - the public thesis behind the wellness stack.
 - [Delx Open Source Growth Playbook](https://github.com/davidmosiah/delx-wellness/blob/main/docs/growth-playbook.md) - how I measure GitHub discovery, npm usage and repo conversion.
 - [MCP Directory Submission Tracker](https://github.com/davidmosiah/delx-wellness/blob/main/docs/mcp-directory-submissions.md) - the public queue for getting the strongest connectors into MCP directories and awesome lists.
 
 ## What I'm building now
 
-- Local-first health context for agents: WHOOP, Garmin, Oura, Strava, Fitbit, Google Health, Withings, Apple Health, Samsung Health, Polar, nutrition, air quality, cycle context and CGM.
-- Agent-ready setup packs: one-command profiles that turn Hermes or OpenClaw into a private wellness operator.
-- Public agent infrastructure: workbench templates, privacy checks, growth metrics, MCP metadata and directory-ready packages.
+- **Deepen the discovery hero:** Google Health MCP real-account coverage + agent DX (not more connectors).
+- Local-first health context for agents across wearables, nutrition and environment — install what you need.
+- Agent-ready setup packs (Hermes / OpenClaw) and public agent utilities; commercial convenience (hosted OAuth, x402 utilities) stays **above** the MIT core.
 
 ---
 
@@ -201,4 +209,4 @@ What I bring: ex-CFO who can talk product/business, 16 years in tech, the last 4
 - 💼 **[LinkedIn](https://www.linkedin.com/in/david-batista-2472b828/)** — long-form
 - 📬 **support@delx.ai** — single canonical inbox
 
-<sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026. Featured repo stars verified on 2026-07-13.</sub>
+<sub>In crypto since 2017. Shipping open-source MCP servers and agent infrastructure since 2026. Featured repo stars verified on 2026-07-30 (~123★ public, google-health-mcp 33★).</sub>
