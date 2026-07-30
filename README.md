@@ -31,7 +31,23 @@
 > Building **`delx`** — local-first MCP servers and the protocol layer for autonomous AI agents, organized in three verticals: **Body**, **Reach**, and **Coordination**.
 > Installable projects across npm and PyPI · MIT, local-first by design · [public growth methodology](https://github.com/davidmosiah/delx-wellness/blob/main/docs/growth-playbook.md).
 >
-> **OSS mode (2026-07-30):** deepen the few packages that already pull — no catalog sprawl. Operating notes: [OSS operating mode](https://github.com/davidmosiah/davidmosiah/blob/main/docs/oss-operating-mode.md).
+> **OSS mode (2026-07-30):** deepen packages that already pull — **agent-ready SOTA** (mcp-scorecard ≥90), no catalog sprawl, no megaphone. Operating notes: [OSS operating mode](https://github.com/davidmosiah/davidmosiah/blob/main/docs/oss-operating-mode.md).
+
+---
+
+## SOTA agent surface (community-ready)
+
+| Package | Role | mcp-scorecard | Install |
+|---|---|---|---|
+| **google-health-mcp** | Discovery hero (33 ⭐) | **100/A** | `npx -y google-health-mcp-unofficial@0.5.4` |
+| **delx-living-body** | Compose all body connectors | **100/A** | `npx -y delx-living-body@0.3.1` |
+| **whoop-mcp** | Mature wearable MCP | **100/A** | `npx -y whoop-mcp-unofficial@0.5.4` |
+| **wellness-nourish** | Nutrition / TACO / meals | **93/A** | `npx -y wellness-nourish@0.7.1` |
+| **delx-memory** | Local agent memory | **100/A** | `npx -y delx-memory@0.2.4` |
+| **mcp-scorecard** | The yardstick | self **100** | `npx -y mcp-scorecard` |
+| **delx-wellness-hermes** | One-command Hermes wellness pack | CLI pack | `npx -y delx-wellness-hermes@0.3.1 setup` |
+
+Hermes configs pin `npx -y package@version` so agents get **known-good** connectors, not floating latest.
 
 ---
 
@@ -59,10 +75,10 @@ Reports omit OAuth secrets, local paths and raw health measurements.
 |---|---|---|---|
 | 🫀 **Body** | **[google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** (33 ⭐) | Google Health API v4 beta — Fitbit, Pixel Watch, partners — local OAuth | `npx -y google-health-mcp-unofficial@0.5.4 doctor` |
 | 📣 **Reach** | **[short-video-agent-kit](https://github.com/davidmosiah/short-video-agent-kit)** | One CLI, four video providers (Sora · Veo · xAI · Hailuo), dry-run safe | `npx -y short-video-agent-kit` |
-| 🛠️ **Coordination** | **[delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server)** | Native MCP stdio bridge for the Delx Protocol | `npx -y delx-mcp-server` |
+| 🛠️ **Coordination** | **[delx-memory](https://github.com/davidmosiah/delx-memory)** + [delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server) | Local agent memory + Delx Protocol bridge | `npx -y delx-memory@0.2.4` |
 
 Body composition meta-MCP (after you install connectors):
-**[delx-living-body](https://github.com/davidmosiah/delx-living-body)** · `npx -y delx-living-body doctor`
+**[delx-living-body](https://github.com/davidmosiah/delx-living-body)** · `npx -y delx-living-body@0.3.1 doctor`
 
 ---
 
