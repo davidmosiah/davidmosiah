@@ -36,7 +36,7 @@ Only these “exist” for proactive work. Everything else is best-effort.
 | 1 | [`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp) | Discovery hero (~33★); strongest install intent | **100/A** |
 | 2 | [`delx-living-body`](https://github.com/davidmosiah/delx-living-body) | Body composition flagship — composes connectors | **100/A** |
 | 3 | [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (+ hermes pack) | Body umbrella / registry / Hermes one-command | hub N/A · hermes CLI pack |
-| 4 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Strong npm median; nutrition utility | **93/A** |
+| 4 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Strong npm median; nutrition utility | **100/A** |
 | 5 | [`whoop-mcp`](https://github.com/davidmosiah/whoop-mcp) (or wearable with live issues) | Mature connector + real users | **100/A** |
 | 6 | [`delx-memory`](https://github.com/davidmosiah/delx-memory) | Local-first agent memory (coord vertical) | **100/A** |
 | 7 | [`creative-forge`](https://github.com/davidmosiah/creative-forge) | Public AGPL engine; dogfood in private ops | pytest (not MCP) |

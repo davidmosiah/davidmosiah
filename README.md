@@ -42,9 +42,9 @@
 | **google-health-mcp** | Discovery hero (33 ⭐) | **100/A** | `npx -y google-health-mcp-unofficial@0.5.4` |
 | **delx-living-body** | Compose all body connectors | **100/A** | `npx -y delx-living-body@0.3.1` |
 | **whoop-mcp** | Mature wearable MCP | **100/A** | `npx -y whoop-mcp-unofficial@0.5.4` |
-| **wellness-nourish** | Nutrition / TACO / meals | **93/A** | `npx -y wellness-nourish@0.7.1` |
+| **wellness-nourish** | Nutrition / TACO / meals | **100/A** | `npx -y wellness-nourish@0.7.2` |
 | **delx-memory** | Local agent memory | **100/A** | `npx -y delx-memory@0.2.4` |
-| **mcp-scorecard** | The yardstick | self **100** | `npx -y mcp-scorecard` |
+| **mcp-scorecard** | The yardstick | self **100** | `npx -y mcp-scorecard@0.5.3` |
 | **delx-wellness-hermes** | One-command Hermes wellness pack | CLI pack | `npx -y delx-wellness-hermes@0.3.1 setup` |
 
 Hermes configs pin `npx -y package@version` so agents get **known-good** connectors, not floating latest.
