@@ -40,12 +40,12 @@
 | Package | Role | mcp-scorecard | Install |
 |---|---|---|---|
 | **google-health-mcp** | Discovery hero (36 ⭐) | **100/A** | `npx -y google-health-mcp-unofficial@0.7.3` |
-| **delx-living-body** | Compose all body connectors | **100/A** | `npx -y delx-living-body@0.3.3` |
+| **delx-living-body** | Compose all body connectors | **100/A** | `npx -y delx-living-body@0.3.4` |
 | **whoop-mcp** | Mature wearable MCP | **100/A** | `npx -y whoop-mcp-unofficial@0.6.0` |
 | **wellness-nourish** | Nutrition / TACO / meals | **100/A** | `npx -y wellness-nourish@0.8.0` |
 | **delx-memory** | Local agent memory | **100/A** | `npx -y delx-memory@0.2.5` |
 | **mcp-scorecard** | The yardstick | self **100** | `npx -y mcp-scorecard@0.5.4` |
-| **delx-wellness-hermes** | One-command Hermes wellness pack | CLI pack | `npx -y delx-wellness-hermes@0.3.3 setup` |
+| **delx-wellness-hermes** | One-command Hermes wellness pack | CLI pack | `npx -y delx-wellness-hermes@0.3.4 setup` |
 
 Hermes configs pin `npx -y package@version` so agents get **known-good** connectors, not floating latest. Pins below match **npm latest** as of 2026-08-04.
 
@@ -89,7 +89,7 @@ Second discovery magnet (no OAuth required):
 | 🛠️ **Coordination** | **[delx-memory](https://github.com/davidmosiah/delx-memory)** + [delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server) | Local agent memory + Delx Protocol bridge | `npx -y delx-memory@0.2.5` |
 
 Body composition meta-MCP (after you install connectors):
-**[delx-living-body](https://github.com/davidmosiah/delx-living-body)** · `npx -y delx-living-body@0.3.3 doctor`
+**[delx-living-body](https://github.com/davidmosiah/delx-living-body)** · `npx -y delx-living-body@0.3.4 doctor`
 
 ---
 
