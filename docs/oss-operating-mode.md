@@ -1,4 +1,4 @@
-# OSS operating mode — 2026-07-30
+# OSS operating mode — 2026-08-04
 
 Canonical rules for the public open-source surface under `davidmosiah`.
 This is **not** a product FOCO. It is the **authority / career probe** of the
@@ -33,7 +33,7 @@ Only these “exist” for proactive work. Everything else is best-effort.
 
 | # | Repo | Why | Scorecard (2026-07-30) |
 |---|---|---|---|
-| 1 | [`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp) | Discovery hero (~33★); strongest install intent | **100/A** |
+| 1 | [`google-health-mcp`](https://github.com/davidmosiah/google-health-mcp) | Discovery hero (~36★); strongest install intent | **100/A** |
 | 2 | [`delx-living-body`](https://github.com/davidmosiah/delx-living-body) | Body composition flagship — composes connectors | **100/A** |
 | 3 | [`delx-wellness`](https://github.com/davidmosiah/delx-wellness) (+ hermes pack) | Body umbrella / registry / Hermes one-command | hub N/A · hermes CLI pack |
 | 4 | [`wellness-nourish`](https://github.com/davidmosiah/wellness-nourish) | Strong npm median; nutrition utility | **100/A** |
@@ -99,13 +99,14 @@ Snapshot helper: regenerate account metrics with the delx-wellness growth script
 when available; store dated snapshots next to this note or in the vault
 `_data/oss-snapshot.json`.
 
-## Snapshot 2026-07-30 (live)
+## Snapshot 2026-08-04 (live)
 
-- GitHub: 47 public repos, ~123★ total, 9 followers
-- Hero: google-health-mcp 33★ / 7 forks
-- npm last-7d (sample): google-health-mcp-unofficial 283 · wellness-nourish 258 ·
-  whoop-mcp-unofficial 183 · garmin-mcp-unofficial 239
-- npm 28d median daily: google-health ~48 · nourish ~33 · whoop ~30
+- GitHub: 48 public repos, ~140★ total, 9 followers
+- Hero: google-health-mcp **36★** / 7 forks · hub delx-wellness **22★**
+- Live pins: GH `0.7.3` · nourish `0.8.0` · whoop `0.6.0` · garmin `0.7.0` · living-body `0.3.3`
+- Proof loop: **1/2** external redacted coverage reports ([@maxgow](https://github.com/maxgow)); second → [issue #21](https://github.com/davidmosiah/google-health-mcp/issues/21) by **2026-08-12**
+- Recent community: headless OAuth PR landed (@jumpmanjay); series-contract peer thread on garmin-mcp
+- npm: treat **median daily** as signal; ignore one-day spikes (scanners/CI)
 
 ## Relationship to product FOCOs
 
