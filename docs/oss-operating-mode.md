@@ -104,7 +104,8 @@ when available; store dated snapshots next to this note or in the vault
 - GitHub: 48 public repos, ~140★ total, 9 followers
 - Hero: google-health-mcp **36★** / 7 forks · hub delx-wellness **22★**
 - Live pins: GH `0.7.3` · nourish `0.8.0` · whoop `0.6.0` · garmin `0.7.0` · living-body `0.3.3`
-- Proof loop: **1/2** external redacted coverage reports ([@maxgow](https://github.com/maxgow)); second → [issue #21](https://github.com/davidmosiah/google-health-mcp/issues/21) by **2026-08-12**
+- Proof loop: **1/2 closed** (2026-08-08). No second external report by 2026-08-12. Status: [google-health-mcp/docs/proof-loop-status.md](https://github.com/davidmosiah/google-health-mcp/blob/main/docs/proof-loop-status.md). New reports → [#2](https://github.com/davidmosiah/google-health-mcp/issues/2).
+- Authority probe runway: **2026-09-30** — [authority-probe.md](https://github.com/davidmosiah/delx-wellness/blob/main/docs/authority-probe.md)
 - Recent community: headless OAuth PR landed (@jumpmanjay); series-contract peer thread on garmin-mcp
 - npm: treat **median daily** as signal; ignore one-day spikes (scanners/CI)
 
