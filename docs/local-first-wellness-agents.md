@@ -21,11 +21,11 @@ Agents cannot act well if every connector has a different auth story, response s
 
 Delx Wellness turns these sources into installable MCP servers and profile packs:
 
-- `delx-wellness` is the public registry and source of truth.
+- `delx-wellness` is the public registry and source of truth. MCP client configs and prompt templates live in its `examples/` tree.
 - `wellness-nourish` is the local nutrition layer.
-- `whoop-mcp`, `garminmcp`, `strava-mcp` and the other connectors expose provider-specific signals.
+- `whoop-mcp`, `garmin-mcp`, `strava-mcp` and the other connectors expose provider-specific signals.
+- `delx-living-body` composes whichever connectors you already have installed into one local wellness context.
 - `delx-wellness-hermes` and `delx-wellness-openclaw` install the stack as one local profile.
-- `delx-agent-workbench` gives builders runnable examples, prompts and MCP client configs.
 
 The goal is not to make a medical oracle. The goal is to make personal context available to the agent in a controlled, inspectable and reversible way.
 
@@ -45,8 +45,8 @@ Every serious connector should make these surfaces obvious:
 - Registry: https://github.com/davidmosiah/delx-wellness
 - Nutrition: https://github.com/davidmosiah/wellness-nourish
 - WHOOP: https://github.com/davidmosiah/whoop-mcp
-- Garmin: https://github.com/davidmosiah/garminmcp
+- Garmin: https://github.com/davidmosiah/garmin-mcp
+- Living body: https://github.com/davidmosiah/delx-living-body
 - Hermes profile: https://github.com/davidmosiah/delx-wellness-hermes
-- Workbench: https://github.com/davidmosiah/delx-agent-workbench
 
 If this direction is useful, star the registry first. Stars help other builders find the map; npm downloads tell me which connectors are actually getting installed.
